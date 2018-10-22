@@ -18,4 +18,11 @@ raw file that doesn't have the JPG twin... gone.
 Put the script in `/usr/local/bin` (make sure it's set as executable).
 
 After that, you can simply call it from the terminal in the directory you want
-to clean up.
+to clean up with `nefcleanup`.
+
+
+### deploy.sh
+
+To deploy the script automatically, you can simply run:
+
+    ./deploy.sh
