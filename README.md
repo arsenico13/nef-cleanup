@@ -1,6 +1,6 @@
 # NEF-CLEANUP
 
-When you shoot with you Nikon camera in both RAW+JPG, you get (of course) one
+When you shoot with your Nikon camera in both RAW+JPG, you get (of course) one
 RAW file and one JPG file for each shot you take.
 
 You get back home, go through all the JPG shots and deleting the bad ones.
@@ -18,4 +18,4 @@ raw file that doesn't have the JPG twin... gone.
 Put the script in `/usr/local/bin` (make sure it's set as executable).
 
 After that, you can simply call it from the terminal in the directory you want
-to clen up.
+to clean up.
