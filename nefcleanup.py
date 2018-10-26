@@ -22,7 +22,7 @@ all_JPG = glob.glob(os.path.join(here, "*" + JPG_EXT))
 
 # We create a list of tuple:
 # (only the file name, the entire path)
-NEF_filenames = [(x.split('/')[-1].split(RAW_EXT)[0], x) for x in all_NEF]  # noqa
+NEF_filenames = [(x.split('/')[-1].split(RAW_EXT)[0], x) for x in all_NEF]
 
 orphans = []
 for nef in NEF_filenames:
