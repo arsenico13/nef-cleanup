@@ -6,23 +6,23 @@ import glob
 
 # Setting different extension allow to use this script with different
 # RAW file formats
-RAW_EXTENSION = '.NEF'
-JPG_EXTENSION = '.JPG'
+RAW_EXT = '.NEF'
+JPG_EXT = '.JPG'
 
 here = os.getcwd()
 
 # With glob we can use wildcards for pattern matching
-all_NEF = glob.glob(os.path.join(here, "*" + RAW_EXTENSION))
+all_NEF = glob.glob(os.path.join(here, "*" + RAW_EXT))
 
 if not all_NEF:
     print "\033[0;94m\tThere are no NEF files in this directory."
     exit(0)
 
-all_JPG = glob.glob(os.path.join(here, "*" + JPG_EXTENSION))
+all_JPG = glob.glob(os.path.join(here, "*" + JPG_EXT))
 
 # We create a list of tuple:
 # (only the file name, the entire path)
-NEF_filenames = [(x.split('/')[-1].split(RAW_EXTENSION)[0], x) for x in all_NEF]  # noqa
+NEF_filenames = [(x.split('/')[-1].split(RAW_EXT)[0], x) for x in all_NEF]
 
 orphans = []
 for nef in NEF_filenames:
