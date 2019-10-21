@@ -26,3 +26,9 @@ to clean up with `nefcleanup`.
 To deploy the script automatically, you can simply run:
 
     ./deploy.sh
+
+
+## License
+
+This software is released under the Apache License 2.0.
+See the LICENSE file.
