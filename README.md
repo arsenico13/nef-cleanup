@@ -13,6 +13,15 @@ raw file that doesn't have the JPG twin... gone.
 :)
 
 
+## WARNING
+
+Use this script **only if you shoot JPG+RAW**!!! If you only shoot RAW, DON'T USE THIS!
+As you can read above in this file, if a RAW file doesn't have his jpg sibling,
+IT WILL BE DELETED.
+
+You have been warned.
+
+
 ## How to use this script
 
 Put the script in `/usr/local/bin` (make sure it's set as executable).
